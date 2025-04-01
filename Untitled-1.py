@@ -15,7 +15,7 @@ def Resta():
      
 print("Calculadora")
 chokko = float(input("Ingrese el primer valor: "))
-Monoko = input("Ingrese el operador")
+Monoko = input("Ingrese el operador: ")
 wafle = float(input("Ingrese el segundo valor: "))
 if Monoko == "*":
     Multiplicacion()
