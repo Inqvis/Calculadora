@@ -9,5 +9,7 @@ git branch -M main
 git remote add origin https://github.com/Inqvis/Calculadora
 git push -u origin main
 
+Iniciamos pensando en como hacer la calcularoda, luego de tener las bases creamos un loop por si la persona quisiera continuar haciendo otras operaciones, y si no quiere el programa se cerraria
+
 ![image](https://github.com/user-attachments/assets/61348444-e283-49eb-afed-8c60617d02b5)
 
