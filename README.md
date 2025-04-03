@@ -12,5 +12,5 @@ git push -u origin main
 Iniciamos pensando en como hacer la calcularoda, luego de tener las bases creamos un loop por si la persona quisiera continuar haciendo otras operaciones, y si no quiere el programa se cerraria
 
 ![image](https://github.com/user-attachments/assets/61348444-e283-49eb-afed-8c60617d02b5)
-![WhatsApp Image 2025-04-03 at 16 15 09](https://github.com/user-attachments/assets/726458d8-1db5-4f3c-b626-fdd997bd7610)
+
 
