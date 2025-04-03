@@ -13,7 +13,10 @@ def Calculadora():
         print(resultado)
     print("Calculadora")
     chokko = float(input("Ingrese el primer valor (NO PUEDEN SER LETRAS): ")) 
-
+    if chokko != str:
+        print("no se admiten letras")
+    print("No se admiten letras")
+    exit
     Monoko = input("Ingrese el operador: ")
     wafle = float(input("Ingrese el segundo valor (NO PUEDEN SER LETRAS): "))
     if Monoko == "*":

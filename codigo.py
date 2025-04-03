@@ -12,21 +12,27 @@ def Calculadora():
         resultado = chokko - wafle
         print(resultado)
     print("Calculadora")
-    chokko = float(input("Ingrese el primer valor (NO PUEDEN SER LETRAS): ")) 
-
-    Monoko = input("Ingrese el operador: ")
-    wafle = float(input("Ingrese el segundo valor (NO PUEDEN SER LETRAS): "))
+    try:
+        chokko = float(input("Ingrese el primer valor: ")) 
+    except ValueError as e: 
+        try:
+             Monoko = input("Ingrese el operador: ")
+        except ValueError as e:
+            try:         
+                wafle = float(input("Ingrese el segundo valor: "))
+            except ValueError as e:
+                print('Los datos ingresados no son numeros.')
     if Monoko == "*":
-        Multiplicacion()
+            Multiplicacion()
     if Monoko == "/":
-        Division() 
+            Division() 
     if Monoko == "+":
-        Suma()
+            Suma()
     if Monoko == "-":
-        Resta()
+            Resta()
     respuesta = input("Desea continuar calculando si o no? ")
     if respuesta == "si":
-        Calculadora()
+            Calculadora()
     if respuesta == "no":
-        print("Se cierra la calculadora")
+            print("Se cierra la calculadora")
 Calculadora()
